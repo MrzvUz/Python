@@ -1,7 +1,13 @@
-Python ZTM Cheatsheet 💻🚀
+'''Python ZTM Cheatsheet 💻🚀
 ===============================
 
-We created this Python 3 Cheat Sheet initially for students of [Complete Python Developer in 2020: Zero to Mastery](https://academy.zerotomastery.io/p/complete-python-developer-zero-to-mastery) but we're now sharing it with any Python beginners to help them learn and remember common Python syntax and with intermediate and advanced Python developers as a handy reference. If you'd like to download a PDF version of this Python Cheat Sheet, you can get it [here](https://zerotomastery.io/courses/python/cheatsheet/?utm_source=github&utm_medium=ztm-python-cheat-sheet)!
+We created this Python 3 Cheat Sheet initially for students of 
+[Complete Python Developer in 2020: Zero to Mastery]
+(https://academy.zerotomastery.io/p/complete-python-developer-zero-to-mastery)
+but we're now sharing it with any Python beginners to help them learn and remember 
+common Python syntax and with intermediate and advanced Python developers as a handy
+reference. If you'd like to download a PDF version of this Python Cheat Sheet, you can get it
+[here](https://zerotomastery.io/courses/python/cheatsheet/?utm_source=github&utm_medium=ztm-python-cheat-sheet)!
 
 Contents
 --------
@@ -12,10 +18,10 @@ Contents
 **Functions:** **[`Functions`](#functions)__,__[`Lambda`](#lambda)__,__[`Comprehensions`](#comprehensions)__,__[`Map,Filter,Reduce`](#map-filter-reduce)__,__[`Ternary`](#ternary-condition)__,__[`Any,All`](#any-all)__,__[`Closures`](#closures)__,__[`Scope`](#scope)**    
 
 **Advanced Python:** **[`Modules`](#modules)__,__[`Iterators`](#iterators)__,__[`Generators`](#generators)__,__[`Decorators`](#decorators)__,__[`Class`](#class)__,__[`Exceptions`](#exceptions)__,__[`Command Line Arguments`](#command-line-arguments)__,__[`File IO`](#file-io)__,__[`Useful Libraries`](#useful-libraries)**  
-
+'''
 
 Numbers
-----
+---
 **python's 2 main types for Numbers is int and float (or integers and floating point numbers)**
 ```python
 type(1)   # int 
