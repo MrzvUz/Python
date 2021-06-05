@@ -1,55 +1,20 @@
-# my_student = {
-#     "name": "Rolf Smith",
-#     "grades": [70, 88, 90, 99]
-# }
+def my_func(name):
+    print("Hello " + name)
 
-# def avarage_grade(student):
-#     return sum(student["grades"]) / len(student["grades"])
-
-# print(avarage_grade(my_student))
+my_func("World")
 
 
+def square(x):
+    return x ** 3
+result = square(5)
+print(result)
 
 
+def times_two(var):
+    return var * 2
 
+times_two(20)
 
-
-# my_student = {
-#     "name": "Rolf Smith",
-#     "grades": [70, 88, 90, 99]
-# }
-
-# def avarage_grade(student):
-#     return sum(student["grades"]) / len(student["grades"])
-
-# print(avarage_grade(my_student))
-
-class Sudent:
-    def __init__(self, name, grades):
-        self.name = name
-        self.grades = grades
-
-    def avarage(student):
-        return sum(student.grades) / len(student.grades)
-
-student_one = Sudent("Ali Mirzaev", [91, 90, 95, 98, 100])
-
-print(student_one.avarage())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+st = "Hello, my name is Ali"
+print(st.upper())
+print(st.split())
