@@ -18,3 +18,5 @@ times_two(20)
 st = "Hello, my name is Ali"
 print(st.upper())
 print(st.split())
+
+print(7**4)
