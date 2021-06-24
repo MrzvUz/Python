@@ -18,6 +18,9 @@ movies.append({
 
 # Create other functions for:
 #   - listing movies
+def list_movies(movies):
+  return movies[movies]
+print(list_movies(movies))
 #   - finding movies
 
 
