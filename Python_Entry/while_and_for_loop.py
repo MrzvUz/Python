@@ -35,24 +35,27 @@
 #----------------------------------------------------------------#
 # FOR LOOPS.
 
-friends = ["Bob", "Anne", "Rolf"]
+# friends = ["Bob", "Anne", "Rolf"]
 
-for friend in friends:
-    print(friend)
+# for friend in friends:
+#     print(friend)
 
-for index in range(5, 10, 2):
-    print(index)
+# for index in range(5, 10, 2):
+#     print(index)
 
 
-students = (
-    {"name": "Rolf Smith", "grade": 90},
-    {"name": "Adam Wool", "grade": 78},
-    {"name": "Anne Run", "grade": 100},
-    {"name": "Jen Beauty", "grade": 80}
-)
+# students = (
+#     {"name": "Rolf Smith", "grade": 90},
+#     {"name": "Adam Wool", "grade": 78},
+#     {"name": "Anne Run", "grade": 100},
+#     {"name": "Jen Beauty", "grade": 80}
+# )
 
-for student in students:
-    name = student["name"]
-    grade = student["grade"]
+# for student in students:
+#     name = student["name"]
+#     grade = student["grade"]
 
-    print(f"{name} has a grade of {grade}.")
+#     print(f"{name} has a grade of {grade}.")
+
+double_numbers = [_ * 2 for _ in range(5)]
+print(double_numbers)
