@@ -57,5 +57,10 @@
 
 #     print(f"{name} has a grade of {grade}.")
 
-double_numbers = [_ * 2 for _ in range(5)]
-print(double_numbers)
+# double_numbers = [_ * 2 for _ in range(5)]
+# print(double_numbers)
+
+friends = ["Rolf", "John", "Anna"]
+
+for friend in enumerate(friends):
+    print(friend)
